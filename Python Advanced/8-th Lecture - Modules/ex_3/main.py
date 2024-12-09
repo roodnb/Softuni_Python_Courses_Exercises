@@ -1,6 +1,4 @@
-from Soft
-
+from triangle import print_triangle
 
 n = int(input())
-
-print_trianlge(n)
+print_triangle(n)

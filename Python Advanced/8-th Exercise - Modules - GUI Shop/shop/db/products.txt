@@ -1,0 +1,9 @@
+{"id": 1, "name": "Tape Library", "img_path": "tape_library.jpg", "count": 1}
+{"id": 2, "name": "Turntable", "img_path": "technics_1210.jpg", "count": 27}
+{"id": 3, "name": "IBM Power", "img_path": "ibm_power.jpeg", "count": 25}
+{"id": 4, "name": "Mainframe", "img_path": "mainframe.jpg", "count": 0}
+{"id": 5, "name": "EMX0 drawer", "img_path": "EMX0.jpg", "count": 27}
+{"id": 6, "name": "Mazda 323F", "img_path": "mazda.jpg", "count": 28}
+{"id": 7, "name": "School Bus", "img_path": "school_bus.jpg", "count": 1}
+{"id": 8, "name": "Death Star", "img_path": "death_star.jpg", "count": 28}
+{"id": 9, "name": "Enjoy", "img_path": "enjoy.png", "count": 28}
