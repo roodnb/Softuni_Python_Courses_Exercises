@@ -3,6 +3,8 @@ matrix = []
 for i in range(n):
     matrix.append(input())
 
+
+
 symbol = input()
 
 for i in range(n):
