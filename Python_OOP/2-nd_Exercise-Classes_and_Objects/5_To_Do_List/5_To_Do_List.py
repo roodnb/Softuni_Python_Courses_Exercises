@@ -1,0 +1,35 @@
+from project.task import Task
+from project.section import Section
+
+
+task = Task("Make bed", "27/05/2020")
+print(task.change_name("Go to University"))
+print(task.change_due_date("28.05.2020"))
+task.add_comment("Don't forget laptop")
+print(task.edit_comment(0, "Don't forget laptop and notebook"))
+print(task.details())
+section = Section("Daily tasks")
+print(section.add_task(task))
+second_task = Task("Make bed", "27/05/2020")
+section.add_task(second_task)
+section.complete_task("Go to University")
+print(section.clean_section())
+print(section.view_section())
+
+
+print('-----------------------------TASK----------------------------------')
+task = Task("Tst", "27.04.2020")
+print(f"{task.name} - {task.due_date}")
+print(task.change_name("New name"))
+print(task.change_name("New name"))
+print(task.change_due_date("21.05.2020"))
+print(task.change_due_date("21.05.2020"))
+task.add_comment("pay the bills")
+print(task.edit_comment(0, "finish my homework"))
+print(task.edit_comment(1, "finish my homework"))
+print('-----------------------------SECTION----------------------------------')
+section = Section("New section")
+print(f"{section.name} - {len(section.tasks)}")
+print(section.add_task(task))
+print(section.add_task(task))
+print(section.complete_task("Tst"))
