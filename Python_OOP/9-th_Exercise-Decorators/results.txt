@@ -1,0 +1,6 @@
+Function <function add at 0x0000025FB5DA8A40> was called.Result: 4
+Function <function mult at 0x0000025FB60B8EA0> was called.Result: 24
+Function <function add at 0x0000021984F48C20> was called.Result: 4
+Function <function mult at 0x0000021984F48F40> was called.Result: 24
+Function add was called.Result: 4
+Function mult was called.Result: 24
