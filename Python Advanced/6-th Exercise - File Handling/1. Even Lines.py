@@ -1,4 +1,4 @@
-with open(".\\ex_1\\text.txt") as file:
+with open("./ex_1/text.txt") as file:
     current_string = file.readlines()
     for index in range(len(current_string)):
         if index % 2 == 0:
@@ -15,9 +15,9 @@ with open(".\\ex_1\\text.txt") as file:
 
 # another resolution with regex
 
-import re
-with open(".\\ex_1\\text.txt") as file:
-    current_string = file.readlines()
-    for i in range(0, len(current_string), 2):
-        line = reversed(re.sub("[-,.!?]", "@", current_string[i]).split())
-        print(*line)
+# import re
+# with open(".\\ex_1\\text.txt") as file:
+#     current_string = file.readlines()
+#     for i in range(0, len(current_string), 2):
+#         line = reversed(re.sub("[-,.!?]", "@", current_string[i]).split())
+#         print(*line)
